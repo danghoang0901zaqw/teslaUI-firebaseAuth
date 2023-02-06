@@ -1,0 +1,26 @@
+.menu {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
+  padding: 70px 20px 20px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  min-width: 280px;
+  color: #000;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
